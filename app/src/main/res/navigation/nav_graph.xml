@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/calculator">
+
+    <fragment
+        android:id="@+id/calculator"
+        android:name="com.example.hw1calculator.ui.calculator.CalculatorFragment"
+        tools:layout="@layout/fragment_calculator">
+
+        <action
+            android:id="@+id/to_calculation_history"
+            app:destination="@id/calculation_history" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/calculation_history"
+        android:name="com.example.hw1calculator.ui.history.CalculationHistoryFragment"
+        tools:layout="@layout/fragment_calculation_history" />
+
+</navigation>

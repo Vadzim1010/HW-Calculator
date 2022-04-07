@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_margin">4dp</dimen>
+    <dimen name="fragment_margin_top">8dp</dimen>
+    <dimen name="fragment_corner_radius">8dp</dimen>
+    <dimen name="fragment_elevation">8dp</dimen>
+
+    <dimen name="fragment_text_size_small">30sp</dimen>
+    <dimen name="fragment_text_size_medium">45sp</dimen>
+    <dimen name="fragment_text_size_big">50sp</dimen>
+
+    <dimen name="calculator_fragment_button_height_small">40dp</dimen>
+    <dimen name="calculator_fragment_button_width_small">80dp</dimen>
+    <dimen name="calculator_fragment_button_width_big">110dp</dimen>
+    <dimen name="calculator_fragment_image_view_size">50dp</dimen>
+
+    <dimen name="calculator_fragment_button_corner_radius">20dp</dimen>
+</resources>
