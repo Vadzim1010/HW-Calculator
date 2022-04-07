@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/fragment_margin"
+    android:layout_marginTop="@dimen/fragment_margin_top"
+    app:cardCornerRadius="@dimen/fragment_corner_radius"
+    app:cardElevation="@dimen/fragment_elevation">
+
+    <TextView
+        android:id="@+id/calculation_history_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:gravity="center"
+        android:textColor="@color/yellow_100"
+        android:textSize="@dimen/fragment_text_size_small"
+        tools:text="2+2=5" />
+
+</androidx.cardview.widget.CardView>
